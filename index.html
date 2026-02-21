@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>étudiante à l'école de managemant et d'innovation téchnologique</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #222;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00adb5;
+        }
+
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #00adb5;
+        }
+
+        .about {
+            text-align: center;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #00adb5;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #007b80;
+        }
+
+        footer {
+            background: #111;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ANDRIHERINTSAINIAVO Solofosoa Assaphe Elisette</h1>
+    <p>Étudiante</p>
+</header>
+
+<nav>
+    <a href="#about">j'ai 17ans</a>
+    <a href="#projects">devenir developpeuse de web</a>
+    <a href="#contact">0385752629</a>
+</nav>
+
+<section id="about" class="about">
+    <h2>Àje suis timide</h2>
+    <p>
+        Bonjour 👋 Je suis passionné par le développement web.
+        J’aime créer des sites modernes, rapides et responsives.
+    </p>
+</section>
+
+<section id="projects">
+    <h2>Mes Projets</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Projet 1</h3>
+            <p>Site e-commerce en HTML/CSS.</p>
+        </div>
+
+        <div class="card">
+            <h3>Projet 2</h3>
+            <p>Application météo en JavaScript.</p>
+        </div>
+
+        <div class="card">
+            <h3>Projet 3</h3>
+            <p>Portfolio moderne responsive.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email : tonemail@email.com</p>
+    <br>
+    <button onclick="showMessage()">Me contacter</button>
+</section>
+
+<footer>
+    <p>© 2026 Ton Nom - Tous droits réservés</p>
+</footer>
+
+<script>
+    function showMessage() {
+        alert("Merci de me contacter !");
+    }
+</script>
+
+</body>
+</html>
